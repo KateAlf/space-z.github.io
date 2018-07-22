@@ -53,7 +53,11 @@ body {
 }
 
 .icons a:hover {
-    opacity: 0.5;
+    opacity: 0.8;
+}
+
+.icons a:active {
+    opacity: 0.4;
 }
 
 .icon {
@@ -102,6 +106,10 @@ body {
 
 .nav a:hover {
     color: white;
+}
+
+.nav a:active {
+    color: #ccc;
 }
 
 
@@ -193,6 +201,11 @@ body {
 
 .btn-grey:hover {
     background-color: #676767;
+}
+
+
+.btn-grey:active {
+    background-color: #ccc;
 }
 
 .feature {
@@ -407,6 +420,10 @@ body {
     color: white;
 }
 
+.text-timetable a:active {
+    color: #ccc;
+}
+
 .table {
     width: 100%;
     border-collapse: collapse;
@@ -521,4 +538,8 @@ body {
 
 .footer-nav a:hover {
     color: white;
+}
+
+.footer-nav a:active {
+    color: #ccc;
 }
