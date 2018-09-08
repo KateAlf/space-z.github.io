@@ -16,7 +16,14 @@ body {
 }
 
 .visually-hidden {
-    display: none; /*  TODO */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 
@@ -69,11 +76,11 @@ body {
     text-decoration: none;
 }
 
-.site-menu  a:hover {
+.site-menu a:hover {
     color: white;
 }
 
-.site-menu  a:active {
+.site-menu a:active {
     color: #ccc;
 }
 
@@ -198,8 +205,8 @@ body {
 }
 
 .btn-grey {
-    width: 215px; /* ??? */
-
+    width: 215px;
+    /* ??? */
     background-color: #222222;
     color: white;
 }
@@ -425,13 +432,13 @@ body {
 }
 
 .timetable-info p {
-  width: 440px;
-  padding-top: 0;
-  margin-left: auto;
-  margin-right: 80px;
+    width: 440px;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: 80px;
 
-  font-size: 13px;
-  line-height: 18px;
+    font-size: 13px;
+    line-height: 18px;
 }
 
 .timetable-info a {
